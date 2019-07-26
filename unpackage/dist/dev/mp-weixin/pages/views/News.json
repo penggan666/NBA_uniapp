@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "新闻",
+  "navigationBarBackgroundColor": "deepskyblue",
+  "usingComponents": {
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-item": "/components/uni-list-item/uni-list-item"
+  }
+}

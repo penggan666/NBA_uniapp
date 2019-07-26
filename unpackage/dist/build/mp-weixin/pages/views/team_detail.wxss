@@ -1,0 +1,23 @@
+
+.box-card{
+	background: #D0DEE5;
+}
+.main{
+	margin-left: 0rpx;
+}
+.teamName{
+	color: coral;
+	font-size: 34rpx;
+	line-height: 1;
+}
+.main{
+	font-size: 28rpx;
+	color: darkcyan;
+	line-height: 1;
+}
+.charts {
+	width: 750rpx;
+	height: 500rpx;
+	background-color: #FFFFFF;
+}
+

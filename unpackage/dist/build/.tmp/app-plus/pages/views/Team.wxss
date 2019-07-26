@@ -1,0 +1,51 @@
+
+swiper{
+		width: 100%;
+		height: 340rpx;
+}
+swiper image{
+		display: block;
+		width: 100%;
+		height: 100%;
+}
+.item-list{
+}
+.pro-item{
+		overflow: hidden;
+		padding: 30rpx;
+}
+.pro-logo{
+  float:left;
+  width: 195rpx;
+  height: 190rpx;
+}
+.pro-body{
+  margin-left: 210rpx;
+}
+.pro-title{
+  color: #212121;
+  font-size: 34rpx;
+  line-height: 1.5;
+}
+.pro-time{
+  font-size: 24rpx;
+  color: #9a9a0a;
+  line-height: 1.5;
+}
+.pro-place{
+  font-size: 24rpx;
+  color: #9a9a0a;
+  line-height: 1.5;
+}
+.pro-footer{
+  overflow: hidden
+}
+.btn-detail{
+  font-size: 24rpx;
+  background-color: #2e5e86;
+  color: #fff;
+  float: left;
+  width: 170rpx;
+  height: 52rpx;
+}
+

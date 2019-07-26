@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"NBAdesign2","entryPagePath":"pages/views/Team.html","page":{"pages/views/Team.html":{"window":{"navigationBarTitleText":"首页","navigationBarBackgroundColor":"deepskyblue","usingComponents":{}}},"pages/views/team_detail.html":{"window":{"navigationBarTitleText":"球队详情","navigationBarBackgroundColor":"deepskyblue","usingComponents":{"t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/views/News.html":{"window":{"navigationBarTitleText":"新闻","navigationBarBackgroundColor":"deepskyblue","usingComponents":{"uni-list":"/components/uni-list/uni-list","uni-list-item":"/components/uni-list-item/uni-list-item"}}},"pages/views/team_data.html":{"window":{"navigationBarTitleText":"队伍数据","navigationBarBackgroundColor":"deepskyblue","usingComponents":{"t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/views/player_data.html":{"window":{"navigationBarTitleText":"球员排名","navigationBarBackgroundColor":"deepskyblue","usingComponents":{"t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/views/team_record.html":{"window":{"navigationBarTitleText":"球队排名","navigationBarBackgroundColor":"deepskyblue","usingComponents":{"t-table":"/components/t-table/t-table","t-th":"/components/t-table/t-th","t-tr":"/components/t-table/t-tr","t-td":"/components/t-table/t-td"}}},"pages/views/comparison.html":{"window":{"navigationBarTitleText":"比赛预测","navigationBarBackgroundColor":"deepskyblue","usingComponents":{}}},"pages/views/personal_page/personal_page.html":{"window":{"navigationBarTitleText":"个人主页","navigationBarBackgroundColor":"deepskyblue","usingComponents":{}}},"pages/views/test.html":{"window":{"navigationBarTitleText":"登录","navigationBarBackgroundColor":"deepskyblue","usingComponents":{}}},"pages/views/reg.html":{"window":{"navigationBarTitleText":"注册","navigationBarBackgroundColor":"deepskyblue","usingComponents":{}}},"pages/views/News_detail/News_detail.html":{"window":{"usingComponents":{"uni-card":"/node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card"}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"#2e5e86","selectedColor":"#2e5e86","backgroundColor":"#ffffff","borderStyle":"black","list":[{"pagePath":"pages/views/Team.html","iconPath":"static/p1.png","text":"首页"},{"pagePath":"pages/views/team_data.html","iconPath":"static/p4.png","text":"球队数据"},{"pagePath":"pages/views/team_record.html","iconPath":"static/p5.png","text":"球队排名"},{"pagePath":"pages/views/player_data.html","iconPath":"static/p2.png","text":"球员排名"},{"pagePath":"pages/views/personal_page/personal_page.html","iconPath":"static/p3.png","text":"个人主页"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/views/Team","pages/views/team_detail","pages/views/News","pages/views/team_data","pages/views/player_data","pages/views/team_record","pages/views/comparison","pages/views/personal_page/personal_page","pages/views/test","pages/views/reg","pages/views/News_detail/News_detail"],"subPackages":[],"nvueCompiler":"weex","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.0.1","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "新闻",
+  "navigationBarBackgroundColor": "deepskyblue",
+  "usingComponents": {
+    "uni-collapse": "/node-modules/@dcloudio/uni-ui/lib/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/node-modules/@dcloudio/uni-ui/lib/uni-collapse-item/uni-collapse-item"
+  }
+}

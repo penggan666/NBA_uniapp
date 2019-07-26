@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"box-card{ background: #D0DEE5; }\n.",[1],"main{ margin-left: ",[0,0],"; }\n.",[1],"teamName{ color: coral; font-size: ",[0,34],"; line-height: 1; }\n.",[1],"main{ font-size: ",[0,28],"; color: darkcyan; line-height: 1; }\n.",[1],"charts { width: ",[0,750],"; height: ",[0,500],"; background-color: #FFFFFF; }\n",],undefined,{path:"./pages/views/team_detail.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/views/team_detail.wxml') } }));

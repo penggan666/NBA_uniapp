@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "新闻详情",
+  "navigationBarBackgroundColor": "deepskyblue",
+  "usingComponents": {
+    "uni-card": "/node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card"
+  }
+}

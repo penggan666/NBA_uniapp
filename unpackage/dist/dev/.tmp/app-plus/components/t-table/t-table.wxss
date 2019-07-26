@@ -1,0 +1,21 @@
+
+.t-table.data-v-1f78d6ba {
+	width: 100%;
+	border: 1px #d0dee5 solid;
+	border-left: none;
+	border-top: none;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.t-table.data-v-1f78d6ba t-tr {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.t-table.data-v-1f78d6ba t-tr:nth-child(2n) {
+	background: #f5f5f5;
+}
+
+
+

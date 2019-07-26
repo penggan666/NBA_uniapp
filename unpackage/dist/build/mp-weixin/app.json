@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/views/test",
+    "pages/views/reg",
+    "pages/views/Team",
+    "pages/views/team_detail",
+    "pages/views/News",
+    "pages/views/team_data",
+    "pages/views/player_data",
+    "pages/views/team_record",
+    "pages/views/comparison"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#2e5e86",
+    "selectedColor": "#2e5e86",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/views/Team",
+        "iconPath": "static/p1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/views/team_data",
+        "iconPath": "static/p4.png",
+        "text": "球队数据"
+      },
+      {
+        "pagePath": "pages/views/team_record",
+        "iconPath": "static/p5.png",
+        "text": "球队排名"
+      },
+      {
+        "pagePath": "pages/views/player_data",
+        "iconPath": "static/p2.png",
+        "text": "球员排名"
+      },
+      {
+        "pagePath": "pages/views/comparison",
+        "iconPath": "static/p3.png",
+        "text": "比赛预测"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
